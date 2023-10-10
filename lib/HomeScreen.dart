@@ -2,6 +2,7 @@ import 'package:flutter/material.dart.';
 import 'package:google_fonts/google_fonts.dart';
 //import 'package:totu/NavigationBarApp.dart';
 import 'package:totu/TotalVisit.dart';
+import 'package:totu/Home.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -68,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     InkWell(
                       onTap: () {
                         Navigator.pushReplacement(context,
-                            MaterialPageRoute(builder: (context) => TotalVisit()));
+                            MaterialPageRoute(builder: (context) => Home()));
                       },
                       child: Container(
                         alignment: Alignment.center,
